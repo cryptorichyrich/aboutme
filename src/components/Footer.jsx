@@ -41,7 +41,7 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Agustinus Biotamalo Lumbantoruan. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="#https://www.facebook.com/Agustinus.Biotamalo.Lumbantoruan/" className="text-gray-400 hover:text-white">
+            <a href="https://www.facebook.com/Agustinus.Biotamalo.Lumbantoruan/" className="text-gray-400 hover:text-white">
               <FaFacebook />
             </a>
             <a href="https://x.com/fxwisdom1" className="text-gray-400 hover:text-white">

@@ -14,7 +14,7 @@ const handleClick = (targetId) => {
   };
 function Hero() {
   return (
-    <div className='bg-black text-white text-center py-16' id="home">
+    <div className='bg-black text-white text-center py-16' style="margin-top:50px" id="home">
         <img src={HeroImage} alt="" className='mx-auto mb-8 w-48 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105'/>
         <h1 className='text-4xl font-bold'>
             I'm {" "}

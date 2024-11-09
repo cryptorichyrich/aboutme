@@ -24,7 +24,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 
+                className="bg-gradient-to-r from-blue-400 to-pink-500 text-white px-4 
                 py-2 rounded-r-lg"
               >
                 Subscribe

@@ -31,18 +31,18 @@ const Navbar = () => {
         )}
 
         {/* Menu items */}
-        <div className={`flex-col md:flex-row md:flex md:items-center md:space-x-6 space-y-4 md:space-y-0 ${isOpen ? 'flex' : 'hidden'} md:block`}>
-          <a href="#home" className="hover:text-gray-400" onClick={() => setIsOpen(false)}>Home</a>
-          <a href="#aboutMe" className="hover:text-gray-400" onClick={() => setIsOpen(false)}>About Me</a>
-          <a href="#services" className="hover:text-gray-400" onClick={() => setIsOpen(false)}>Services</a>
-          <a href="#projects" className="hover:text-gray-400" onClick={() => setIsOpen(false)}>Projects</a>
-          <a href="#contact" className="hover:text-gray-400" onClick={() => setIsOpen(false)}>Contact</a>
+        <div className={`flex-col items-center md:flex-row md:flex md:items-center md:space-x-6 space-y-4 md:space-y-0 ${isOpen ? 'flex' : 'hidden'} md:block`}>
+          <a href="#home" className="hover:text-gray-400 text-center" onClick={() => setIsOpen(false)}>Home</a>
+          <a href="#aboutMe" className="hover:text-gray-400 text-center" onClick={() => setIsOpen(false)}>About Me</a>
+          <a href="#services" className="hover:text-gray-400 text-center" onClick={() => setIsOpen(false)}>Services</a>
+          <a href="#projects" className="hover:text-gray-400 text-center" onClick={() => setIsOpen(false)}>Projects</a>
+          <a href="#contact" className="hover:text-gray-400 text-center" onClick={() => setIsOpen(false)}>Contact</a>
           <button
             onClick={() => {
               handleClick('#contact');
               setIsOpen(false);
             }}
-            className="bg-gradient-to-r from-blue-500 to-pink-500 px-4 py-2 rounded-full text-white transform transition-transform duration-300 hover:scale-105"
+            className="bg-gradient-to-r from-blue-500 to-pink-500 px-4 py-2 rounded-full text-white transform transition-transform duration-300 hover:scale-105 text-center"
           >
             Connect Me
           </button>

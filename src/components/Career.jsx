@@ -141,7 +141,7 @@ import {
 
   export function TimelineWithIcon() {
     return (
-      <div className="bg-black py-20 place-items-center">
+      <div className="bg-black py-20 place-items-center" id="career">
         <div className="container mx-auto px-8 md:px-16 lg:px-24">
           <h2 className="text-4xl font-bold text-center mb-12 text-white">Career</h2>
           <section className="flex min-h-screen justify-center bg-black pt-20">

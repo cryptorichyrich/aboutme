@@ -19,18 +19,16 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-16 lg:px-24">
         <div className="text-2xl font-bold">Agustinus Biotamalo</div>
         
+        {/* Hamburger button */}
         <div className="md:hidden">
-          <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
+          <button onClick={() => setIsOpen(true)} className="focus:outline-none">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              {isOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-              ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
-              )}
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
             </svg>
           </button>
         </div>
 
+        {/* Menu items */}
         <div className={`flex-col md:flex-row md:flex md:items-center md:space-x-6 space-y-4 md:space-y-0 ${isOpen ? 'flex' : 'hidden'} md:block`}>
           <a href="#home" className="hover:text-gray-400" onClick={() => setIsOpen(false)}>Home</a>
           <a href="#aboutMe" className="hover:text-gray-400" onClick={() => setIsOpen(false)}>About Me</a>
@@ -47,6 +45,18 @@ const Navbar = () => {
             Connect Me
           </button>
         </div>
+
+        {/* Close (X) button on mobile */}
+        {isOpen && (
+          <button
+            onClick={() => setIsOpen(false)}
+            className="absolute top-4 right-4 md:hidden focus:outline-none"
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        )}
       </div>
     </nav>
   );

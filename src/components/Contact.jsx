@@ -28,7 +28,7 @@ const Contact = () => {
     <div className="bg-black text-white py-20" id="contact">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2 className="text-4xl font-bold text-center mb-12">Whatsapp Me</h2>
-        <div className="flex flex-col md:flex-row items-center md:space-x-12">
+        <div className="flex flex-col md:flex-row md:space-x-12">
           <div className="flex-1">
             <h3 className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r 
             from-blue-400 to-pink-500 mb-4'>Let's Talk</h3>

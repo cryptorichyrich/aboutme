@@ -1,7 +1,5 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import employeeMSImage from "../assets/employee-ms.png";
-import bookMSImage from "../assets/admin-dashboard.png";
 
 const projects = [
     {
@@ -24,49 +22,49 @@ const projects = [
   {
     name: "News Baxiamarkets",
     technologies: "Blogging, Market analysis, hubspot, content writing",
-    image: "/newsbaxia.jpeg",
+    image: "newsbaxia.jpeg",
     github: "https://news.baxiamarkets.com",
   },  
   {
     name: "FPBX X Digital Marketing",
     technologies: "Blogging, Market analysis, hubspot, content writing",
-    image: "/xfpbx.jpg",
+    image: "xfpbx.jpg",
     github: "https://x.com/FundedPropBX",
   },
   {
     name: "Baxiamarkets X Digital Marketing",
     technologies: "Blogging, Market analysis, hubspot, content writing",
-    image: "/xbxm.jpeg",
+    image: "xbxm.jpeg",
     github: "https://x.com/BaxiaMarkets",
   },
   {
     name: "TitanFx Business Support",
     technologies: "zendesk, risk management",
-    image: "/Titanfx.jpg",
+    image: "Titanfx.jpg",
     github: "https://titanfx.com/",
   },   
   {
     name: "Liquidity Connect Business Support",
     technologies: "Intercom, zendesk",
-    image: "/liquidityconnect.jpg",
+    image: "liquidityconnect.jpg",
     github: "https://liqc.com/",
   },  
   {
     name: "Traderscolo Business Support, Business Development",
     technologies: "Intercom, zendesk, whmcs, Wordpress",
-    image: "/traderscolo.jpg",
+    image: "traderscolo.jpg",
     github: "https://traderscolo.com/",
   },
   {
     name: "MT5 Volume Profile Indicator",
     technologies: "MQL5",
-    image: "/volumeProfile.jpeg",
+    image: "volumeProfile.jpeg",
     github: "https://www.mql5.com/en/market/product/106518",
   },       
   {
     name: "MT5 Anchored VWAP Indicator",
     technologies: "MQL5",
-    image: "/anchoredvwap.jpeg",
+    image: "anchoredvwap.jpeg",
     github: "https://www.mql5.com/en/market/product/106391",
   },
 ];

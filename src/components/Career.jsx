@@ -30,7 +30,7 @@ import {
       company:"Baxia Markets",
       startDate: "Jan 2020",
       endDate: "Sep 2024",
-      position:"",
+      position:"Information Technology Manager",
       description: "I specialized in blending marketing strategy with technical execution, ensuring both the business and its customers succeeded. Partnering with marketing teams, I helped transform ideas into actionable campaigns while developing and optimizing user-friendly, mobile-responsive websites. From building referral systems and FAQ pages to testing and debugging web solutions, I ensured seamless digital experiences. <br/><br/>Beyond the code, I actively managed customer relationships and marketing activities through Discord, providing hands-on support to traders, resolving issues, and keeping users informed so they could trade confidently. My daily technical market insights on Twitter helped build trust and engagement within the community.<br><br><ul className='list-disc text-white list-inside pl-5'><li>Front end web development</li><li>Backend integration</li><li>Payment system integration</li><li>CRM system integration</li><li>Chat system integration</li><li>Data synchronization automation accross multiple CRMs</li><li>Inbound and outbount marketing</li><li>Implement SEO strategy & audit</li></ul>",
       icon: "https://media.licdn.com/dms/image/v2/C4E0BAQHV4vaWZlHA_g/company-logo_100_100/company-logo_100_100/0/1630631078184/baxiamarkets_logo?e=1738800000&v=beta&t=xCWS5jGrDZnO5eQJ8GRW7ZIKIFaarnhYiV9iQA4rVxM" // Replace with actual path or URL
     },
@@ -38,7 +38,7 @@ import {
     company:"TitanFx",
       startDate: "Jan 2018",
       endDate: "Jul 2022 ",
-      position:"",
+      position:"Customer Relationship Specialist & Risk Specialist",
       description: "1. Handle inbound customer service inquiries via telephone, chat, and email and resolve 85% of complex customer issues regarding deposits, withdrawals, payments, and trading.<br><br>2. Escalate customer issues to the appropriate department or manager as needed.<br><br>3. Participate in training and development programs to improve customer service skills and knowledge.<br><br>4. Handle trading risk management",
       icon: "https://media.licdn.com/dms/image/v2/D560BAQGJJIcMvm8V1g/company-logo_100_100/company-logo_100_100/0/1721373282893/titan_fx_logo?e=1738800000&v=beta&t=mLgYk2Vm_zlBWkIKLTlCIGbZL98nukIQoIVFnJhVVfU" // Replace with actual path or URL
     },

@@ -44,7 +44,7 @@ const Navbar = () => {
             }}
             className="bg-gradient-to-r from-blue-500 to-pink-500 px-4 py-2 rounded-full text-white transform transition-transform duration-300 hover:scale-105 text-center"
           >
-            Connect Me
+            Whatsapp Me
           </button>
         </div>
 

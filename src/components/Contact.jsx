@@ -41,7 +41,7 @@ const Contact = () => {
             </div>
             <div className='mb-4'>
                 <FaWhatsapp className='inline-block text-blue-400 mr-2' />
-                <a href="https://wa.me/6281398253186?text=Hello there!"><span>+6281398253186</span></a>
+                <a href="https://wa.me/6281398253186?text=Hello there!" target='_blank'><span>+6281398253186</span></a>
             </div>
             <div className='mb-4'>
                 <FaMapMarkedAlt className='inline-block text-blue-400 mr-2' />

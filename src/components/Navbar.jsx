@@ -15,10 +15,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-black text-white fixed w-full z-10 top-0">
+    <><div id="home"></div><nav className="bg-black text-white fixed w-full z-10 top-0">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-16 lg:px-24">
         <div className="text-2xl font-bold"><a href="/">Agustinus Biotamalo</a></div>
-        
+
         {/* Hamburger button */}
         {!isOpen && (
           <div className="md:hidden">
@@ -42,7 +42,7 @@ const Navbar = () => {
             onClick={() => {
               handleClick('#contact');
               setIsOpen(false);
-            }}
+            } }
             className="bg-gradient-to-r from-blue-500 to-pink-500 px-4 py-2 rounded-full text-white transform transition-transform duration-300 hover:scale-105 text-center"
           >
             Whatsapp Me
@@ -61,7 +61,7 @@ const Navbar = () => {
           </button>
         )}
       </div>
-    </nav>
+    </nav></>
   );
 };
 

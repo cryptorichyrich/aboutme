@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaEnvelope, FaMapMarkedAlt, FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaMapMarkedAlt , FaWhatsapp} from 'react-icons/fa';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -35,13 +35,13 @@ const Contact = () => {
             <p>I'm open to discussing web development projects or partnership opportunities.</p>
             <div className='mb-4 mt-8'>
                 <FaEnvelope className='inline-block text-blue-400 mr-2' />
-                <a href="mailto:youremail@example.com" className='hover:underline'>
+                <a href="mailto:fxwisdom1@gmail.com" className='hover:underline'>
                     fxwisdom1@gmail.com
                 </a>
             </div>
             <div className='mb-4'>
-                <FaPhone className='inline-block text-blue-400 mr-2' />
-                <span>+6281398253186</span>
+                <FaWhatsapp className='inline-block text-blue-400 mr-2' />
+                <a href="https://wa.me/6281398253186?text=Hello there!"><span>+6281398253186</span></a>
             </div>
             <div className='mb-4'>
                 <FaMapMarkedAlt className='inline-block text-blue-400 mr-2' />
@@ -89,11 +89,7 @@ const Contact = () => {
                       required
                     />
                 </div>
-                <button 
-                  type="submit"
-                  className='bg-gradient-to-r from-blue-400 to-pink-500 text-white hidden md:inline
-                  transform transition-transform duration-300 hover:scale-105 px-8 py-2 rounded-full'
-                >
+                <button type="submit" className='bg-gradient-to-r from-blue-400 to-pink-500 text-white transform transition-transform duration-300 hover:scale-105 px-8 py-2 rounded-full'>
                   Send
                 </button>
             </form>

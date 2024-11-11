@@ -13,11 +13,13 @@ const handleClick = (targetId) => {
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isMobile] = useState(window.innerWidth < 768);
 
   return (
     <><div id="home" style={{top:"0",width:"100%",height:"5px"}}></div><nav className="bg-black text-white fixed w-full z-10 top-0">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-16 lg:px-24">
-      {!isOpen && (<div className="md:hidden text-2xl font-bold"><a href="/">Agustinus Biotamalo</a></div>)}
+      {!isOpen && isMobile && (<div className="md:hidden text-2xl font-bold"><a href="/">Agustinus Biotamalo</a></div>)}
+      {!isMobile && (<div className="text-2xl font-bold"><a href="/">Agustinus Biotamalo</a></div>)}
 
         {/* Hamburger button */}
         {!isOpen && (
@@ -31,14 +33,14 @@ const Navbar = () => {
         )}
 
         {/* Menu items */}
-        <div className={`flex-col items-center md:flex-row md:flex md:items-center md:space-x-6 space-y-4 md:space-y-0 ${isOpen ? 'flex' : 'hidden'} md:block w-full`}>
+        <div className={`flex-col items-center md:flex-row md:flex md:items-center md:space-x-6 space-y-4 md:space-y-0 ${isOpen ? 'flex w-full' : 'hidden'} md:block`}>
           {isOpen && (<div className="md:hidden text-2xl font-bold"><a href="/">Agustinus Biotamalo</a></div>)}
-          <a href="#home" className="hover:text-gray-400 text-center w-full" onClick={() => setIsOpen(false)}>Home</a>
-          <a href="#aboutMe" className="hover:text-gray-400 text-center w-full" onClick={() => setIsOpen(false)}>About Me</a>
-          <a href="#services" className="hover:text-gray-400 text-center w-full" onClick={() => setIsOpen(false)}>Services</a>
-          <a href="#projects" className="hover:text-gray-400 text-center w-full" onClick={() => setIsOpen(false)}>Projects</a>
-          <a href="#career" className="hover:text-gray-400 text-center w-full" onClick={() => setIsOpen(false)}>Career</a>
-          <a href="#contact" className="hover:text-gray-400 text-center w-full" onClick={() => setIsOpen(false)}>Contact</a>
+          <a href="#home" className={`hover:text-gray-400 text-center ${isOpen ? 'w-full' : ''}`} onClick={() => setIsOpen(false)}>Home</a>
+          <a href="#aboutMe" className={`hover:text-gray-400 text-center ${isOpen ? 'w-full' : ''}`} onClick={() => setIsOpen(false)}>About Me</a>
+          <a href="#services" className={`hover:text-gray-400 text-center ${isOpen ? 'w-full' : ''}`} onClick={() => setIsOpen(false)}>Services</a>
+          <a href="#projects" className={`hover:text-gray-400 text-center ${isOpen ? 'w-full' : ''}`} onClick={() => setIsOpen(false)}>Projects</a>
+          <a href="#career" className={`hover:text-gray-400 text-center ${isOpen ? 'w-full' : ''}`} onClick={() => setIsOpen(false)}>Career</a>
+          <a href="#contact" className={`hover:text-gray-400 text-center ${isOpen ? 'w-full' : ''}`} onClick={() => setIsOpen(false)}>Contact</a>
           <button
             onClick={() => {
               handleClick('#contact');

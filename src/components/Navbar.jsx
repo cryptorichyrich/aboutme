@@ -18,8 +18,7 @@ const Navbar = () => {
   return (
     <><div id="home" style={{top:"0",width:"100%",height:"5px"}}></div><nav className="bg-black text-white fixed w-full z-10 top-0">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-16 lg:px-24">
-      {!isOpen && isMobile && (<div className="md:hidden text-2xl font-bold"><a href="/">Agustinus Biotamalo</a></div>)}
-      {!isMobile && (<div className="text-2xl font-bold"><a href="/">Agustinus Biotamalo</a></div>)}
+      <div className={`${isOpen && isMobile ?'md:hidden':''} text-2xl font-bold`}><a href="/">Agustinus Biotamalo</a></div>
 
         {/* Hamburger button */}
         {!isOpen && (

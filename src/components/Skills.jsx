@@ -27,6 +27,8 @@ const skills = [
     "Tailwind",
     "Ubuntu",
     "Git",
+    "Github",
+    "GitActions",
     "Jira",
     "Asana",
     "Vite",

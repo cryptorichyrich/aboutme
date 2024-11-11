@@ -32,12 +32,12 @@ const Navbar = () => {
 
         {/* Menu items */}
         <div className={`flex-col items-center md:flex-row md:flex md:items-center md:space-x-6 space-y-4 md:space-y-0 ${isOpen ? 'flex' : 'hidden'} md:block w-full`}>
-          <a href="#home" className="hover:text-gray-400 text-center" onClick={() => setIsOpen(false)}>Home</a>
-          <a href="#aboutMe" className="hover:text-gray-400 text-center" onClick={() => setIsOpen(false)}>About Me</a>
-          <a href="#services" className="hover:text-gray-400 text-center" onClick={() => setIsOpen(false)}>Services</a>
-          <a href="#projects" className="hover:text-gray-400 text-center" onClick={() => setIsOpen(false)}>Projects</a>
-          <a href="#career" className="hover:text-gray-400 text-center" onClick={() => setIsOpen(false)}>Career</a>
-          <a href="#contact" className="hover:text-gray-400 text-center" onClick={() => setIsOpen(false)}>Contact</a>
+          <a href="#home" className="hover:text-gray-400 text-center w-full" onClick={() => setIsOpen(false)}>Home</a>
+          <a href="#aboutMe" className="hover:text-gray-400 text-center w-full" onClick={() => setIsOpen(false)}>About Me</a>
+          <a href="#services" className="hover:text-gray-400 text-center w-full" onClick={() => setIsOpen(false)}>Services</a>
+          <a href="#projects" className="hover:text-gray-400 text-center w-full" onClick={() => setIsOpen(false)}>Projects</a>
+          <a href="#career" className="hover:text-gray-400 text-center w-full" onClick={() => setIsOpen(false)}>Career</a>
+          <a href="#contact" className="hover:text-gray-400 text-center w-full" onClick={() => setIsOpen(false)}>Contact</a>
           <button
             onClick={() => {
               handleClick('#contact');

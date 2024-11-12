@@ -11,6 +11,8 @@ const skills = [
     "PHP",
     "Wordpress",
     "Elementor",
+    "Strattic",
+    "GraphQL",
     "MonggoDB",
     "Mysql",
     "Flutter",

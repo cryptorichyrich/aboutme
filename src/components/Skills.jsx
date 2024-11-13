@@ -50,7 +50,7 @@ function Skill(props) {
     <button key={props.key}
       className="px-4 py-2 bg-gray-200 rounded-full text-gray-700 font-medium hover:bg-gray-300 transition duration-200"
     >
-      {props.skill}
+      {props.skillName}
     </button>
   );
 }
@@ -68,7 +68,7 @@ const SkillsTagList = () => {
       </div>
       <div className="flex flex-wrap justify-center gap-4">
         {skills.map((skill, index) => (
-          <Skill skill={skill} key={index} />
+          <Skill skillName={skill} key={index} />
         ))}
       </div>
     </div>

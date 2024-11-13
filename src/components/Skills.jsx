@@ -47,7 +47,7 @@ const skills = [
 // eslint-disable-next-line react/prop-types
 function Skill(props) {
   return (
-    <button key={props.key}className="px-4 py-2 bg-gray-200 rounded-full text-gray-700 font-medium hover:bg-gray-300 transition duration-200">
+    <button key={props.key}className="x-auto px-8 md:px-16 px-4 py-2 bg-gray-200 rounded-full text-gray-700 font-medium hover:bg-gray-300 transition duration-200">
       {props.skillName}
     </button>
   );

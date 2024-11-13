@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 
@@ -44,12 +45,12 @@ const skills = [
 ];
 
 // eslint-disable-next-line react/prop-types
-function Skill({ skill }) {
+function Skill(props) {
   return (
-    <button
+    <button key={props.key}
       className="px-4 py-2 bg-gray-200 rounded-full text-gray-700 font-medium hover:bg-gray-300 transition duration-200"
     >
-      {skill}
+      {props.skill}
     </button>
   );
 }

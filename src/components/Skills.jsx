@@ -49,7 +49,7 @@ const skills = [
 // eslint-disable-next-line react/prop-types
 function Skill(props) {
   return (
-    <button key={props.key}className="x-auto px-8 md:px-16 px-4 py-2 bg-gray-200 rounded-full text-gray-700 font-medium hover:bg-gray-300 transition duration-200">
+    <button key={props.key}className="px-4 py-2 bg-gray-200 rounded-full text-gray-700 font-medium hover:bg-gray-300 transition duration-200">
       {props.skillName}
     </button>
   );
@@ -66,7 +66,7 @@ const SkillsTagList = () => {
           The list covers both personal study projects and commercial endeavors, focusing only on technologies engaged with in the past four years.
         </p>
       </div>
-      <div className="flex flex-wrap justify-center gap-4">
+      <div className="x-auto px-8 md:px-16 flex flex-wrap justify-center gap-4">
         {skills.map((skill, index) => (
           <Skill skillName={skill} key={index} />
         ))}

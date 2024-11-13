@@ -6,6 +6,8 @@ const skills = [
   "Vue3",
   "React",
   "NodeJs",
+  "NextJs",
+  "vite",
   "ExpressJs",
   "Laravel",
   "Javascript",

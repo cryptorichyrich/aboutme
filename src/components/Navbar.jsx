@@ -39,6 +39,7 @@ const Navbar = () => {
           <a href="#services" className={`hover:text-gray-400 text-center ${isOpen ? 'w-full' : ''}`} onClick={() => setIsOpen(false)}>Services</a>
           <a href="#projects" className={`hover:text-gray-400 text-center ${isOpen ? 'w-full' : ''}`} onClick={() => setIsOpen(false)}>Projects</a>
           <a href="#career" className={`hover:text-gray-400 text-center ${isOpen ? 'w-full' : ''}`} onClick={() => setIsOpen(false)}>Career</a>
+          <a href="#certificate" className={`hover:text-gray-400 text-center ${isOpen ? 'w-full' : ''}`} onClick={() => setIsOpen(false)}>Certificate</a>
           <a href="#contact" className={`hover:text-gray-400 text-center ${isOpen ? 'w-full' : ''}`} onClick={() => setIsOpen(false)}>Contact</a>
           <button
             onClick={() => {

@@ -8,6 +8,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Career from './components/Career'
 import Skills from './components/Skills'
+import Certificate from './components/Certificate'
 function App() {
   return (
     <div>
@@ -18,6 +19,7 @@ function App() {
       <Service/>
       <Projects/>
       <Career/>
+      <Certificate/>
       <Contact/>
       <Footer/>
     </div>

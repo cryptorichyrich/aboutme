@@ -69,6 +69,12 @@ const Certificates= [
     icon: "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1739404800&v=beta&t=mdS7VR4FRvRmf2qWnKejxYsyCcZhyf4kgOhvj6ChDpI",
   },      
   {
+    name: "Docker & Kubernetes: The Practical Guide [2024 Edition]",
+    issuer: "Udemy",
+    issuedDate: "Aug 2024",
+    icon: "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1739404800&v=beta&t=mdS7VR4FRvRmf2qWnKejxYsyCcZhyf4kgOhvj6ChDpI",
+  },        
+  {
     name: "Dive Into Kubernetes - Containers, Docker and Kubernetes",
     issuer: "Udemy",
     issuedDate: "June 2024",
@@ -141,7 +147,7 @@ const Certificates= [
     icon: "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1739404800&v=beta&t=mdS7VR4FRvRmf2qWnKejxYsyCcZhyf4kgOhvj6ChDpI",
   },
   {
-    name: "Dive Into Docker - Hands-on Devops with Docker & Containers",
+    name: "Customer Service",
     issuer: "Udemy",
     issuedDate: "August 2020",
     icon: "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1739404800&v=beta&t=mdS7VR4FRvRmf2qWnKejxYsyCcZhyf4kgOhvj6ChDpI",

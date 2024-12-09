@@ -2,6 +2,12 @@
 import React from "react";
 
 const projects = [
+  {
+    name: "Gatsby Garage",
+    technologies: "Wordpress, GatsbyJs, ACF, GraphQL",   
+    image: "gatsbygarage.png",
+    github: "https://github.com/cryptorichyrich/gatsbygarageproject",
+  },   
     {
         name: "Crossyncorder",
         technologies: "Vue.js, MYSQL, NodeJs, ExpressJs, Redis, Websocket, ZeroMQ (ZMQ), Docker, Monggo DB",   

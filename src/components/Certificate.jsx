@@ -3,6 +3,18 @@ import React from 'react';
 
 const Certificates= [
   {
+    name: "Next JS & WordPress: Build rapid NextJS sites with Next & WP",
+    issuer: "Udemy",
+    issuedDate: "Dec 2024",
+    icon: "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1739404800&v=beta&t=mdS7VR4FRvRmf2qWnKejxYsyCcZhyf4kgOhvj6ChDpI", // Replace with actual icon URL
+  },  
+  {
+    name: "Gatsby JS v5 & Headless WordPress",
+    issuer: "Udemy",
+    issuedDate: "Nov 2024",
+    icon: "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1739404800&v=beta&t=mdS7VR4FRvRmf2qWnKejxYsyCcZhyf4kgOhvj6ChDpI", // Replace with actual icon URL
+  },  
+  {
     name: "B2B Sales Objections Simplified",
     issuer: "Udemy",
     issuedDate: "Nov 2024",
@@ -14,12 +26,6 @@ const Certificates= [
     issuedDate: "Nov 2024",
     icon: "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1739404800&v=beta&t=mdS7VR4FRvRmf2qWnKejxYsyCcZhyf4kgOhvj6ChDpI", // Replace with actual icon URL
   },  
-  {
-    name: "Gatsby JS v5 & Headless WordPress",
-    issuer: "Udemy",
-    issuedDate: "Nov 2024",
-    icon: "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1739404800&v=beta&t=mdS7VR4FRvRmf2qWnKejxYsyCcZhyf4kgOhvj6ChDpI", // Replace with actual icon URL
-  },
   {
     name: "Email Marketing",
     issuer: "HubSpot Academy",

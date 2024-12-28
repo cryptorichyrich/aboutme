@@ -3,6 +3,12 @@ import React from "react";
 
 const projects = [
   {
+    name: "Damai Kasih Channel",
+    technologies: "Jekyll, Markdown, Ruby",   
+    image: "damaikasihchannel.png",
+    github: "https://damaikasihchannel.com",
+  }, 
+  {
     name: "Gatsby Garage",
     technologies: "Wordpress, GatsbyJs, ACF, GraphQL",   
     image: "gatsbygarage.png",

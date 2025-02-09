@@ -4,7 +4,7 @@ import React from "react";
 const projects = [
   {
     name: "Damai Kasih Channel",
-    technologies: "Jekyll, Markdown, Ruby",   
+    technologies: "Jekyll, Markdown, Ruby, Developed Holy Bible for web, Church Documents, Catechism of Catholic Church web app, Church Canonic web app",   
     image: "damaikasihchannel.png",
     github: "https://damaikasihchannel.com",
   }, 

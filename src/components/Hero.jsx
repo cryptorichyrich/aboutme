@@ -2,7 +2,7 @@
 import {React} from 'react'
 import HeroImage from '../assets/image.png'
 import Typewriter from './Typewriter'
-import Resume from '../assets/Bio_October_2024_PM_FSD_Resume.pdf'
+import Resume from '../assets/resume_cv_2025.pdf'
 const handleClick = (targetId) => {
     const targetSection = document.querySelector(targetId);
     if (targetSection) {
@@ -17,7 +17,7 @@ function Hero() {
     <div className='bg-black text-white text-center py-16' style={{ marginTop: "50px" }}>
         <img src={HeroImage} alt="" className='mx-auto mb-8 w-48 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105'/>
         <h1 className='text-4xl font-bold'>
-            I'm {" "}
+            I&apos;m {" "}
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-500'>Agustinus Biotamalo Lumbantoruan</span>
             <Typewriter/>
         </h1>

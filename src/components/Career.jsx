@@ -16,7 +16,7 @@
       endDate: "Present",
       position:"Web Developer, Head of IT",
       description: "Developed Bible App, Church Documents app and catholic apologetic articles",
-      icon: "/public/channels4_profile.jpg"
+      icon: "/channels4_profile.jpg"
     },      
     {
         company:"Coway",
@@ -24,7 +24,7 @@
         endDate: "Present",
         position:"Sales, Marketing and Business Developer Specialist",
         description: "Manage and work with team to increase sales for health product sales for home, commercial and industrial sectors using innovative proprietary strategy.",
-        icon: "/public/coway_indonesia_logo.jpg"
+        icon: "/coway_indonesia_logo.jpg"
       },     
     {
         company:"Funded Prop Bx",
@@ -32,7 +32,7 @@
         endDate: "Sep 2024",
         position:"Information Technology Manager",
         description: "I specialized in blending marketing strategy with technical execution, ensuring both the business and its customers succeeded. Partnering with marketing teams, I helped transform ideas into actionable campaigns while developing and optimizing user-friendly, mobile-responsive websites. From building referral systems and FAQ pages to testing and debugging web solutions, I ensured seamless digital experiences.<br><br>Beyond the code, I actively managed customer relationships and marketing activities through Discord, providing hands-on support to traders, resolving issues, and keeping users informed so they could trade confidently. My daily technical market insights on Twitter helped build trust and engagement within the community.<br><br><ul className='list-disc text-white list-inside pl-5'><li>Front end web development</li><li>Affiliate system development</li><li>Coupon based promotion system development</li><li>Backend integration</li><li>Payment system integration</li><li>System deployment with Docker Compose</li><li>CRM system integration</li><li>Chat system integration</li><li>Inbound and outbount marketing</li><li>Implement SEO strategy & audit</li></ul>",
-        icon: "/public/baxiamarkets_logo.jpg" // Replace with actual path or URL
+        icon: "/baxiamarkets_logo.jpg" // Replace with actual path or URL
       },    
     {
       company:"Baxia Markets",
@@ -40,7 +40,7 @@
       endDate: "Sep 2024",
       position:"Information Technology Manager",
       description: "I specialized in blending marketing strategy with technical execution, ensuring both the business and its customers succeeded. Partnering with marketing teams, I helped transform ideas into actionable campaigns while developing and optimizing user-friendly, mobile-responsive websites. From building referral systems and FAQ pages to testing and debugging web solutions, I ensured seamless digital experiences. <br/><br/>Beyond the code, I actively managed customer relationships and marketing activities through Discord, providing hands-on support to traders, resolving issues, and keeping users informed so they could trade confidently. My daily technical market insights on Twitter helped build trust and engagement within the community.<br><br><ul className='list-disc text-white list-inside pl-5'><li>Front end web development</li><li>Backend integration</li><li>Payment system integration</li><li>CRM system integration</li><li>Chat system integration</li><li>Data synchronization automation accross multiple CRMs</li><li>Inbound and outbount marketing</li><li>Implement SEO strategy & audit</li></ul>",
-      icon: "/public/baxiamarkets_logo.jpg" // Replace with actual path or URL
+      icon: "/baxiamarkets_logo.jpg" // Replace with actual path or URL
     },
     {
     company:"TitanFx",
@@ -48,21 +48,21 @@
       endDate: "Jul 2022 ",
       position:"Customer Relationship Specialist & Risk Specialist",
       description: "1. Handle inbound customer service inquiries via telephone, chat, and email and resolve 85% of complex customer issues regarding deposits, withdrawals, payments, and trading.<br><br>2. Escalate customer issues to the appropriate department or manager as needed.<br><br>3. Participate in training and development programs to improve customer service skills and knowledge.<br><br>4. Handle trading risk management",
-      icon: "/public/titan_fx_logo.jpg" // Replace with actual path or URL
+      icon: "/titan_fx_logo.jpg" // Replace with actual path or URL
     },
     {company:"Liquidity Connect LLC",
         startDate: "Jan 2016",
         endDate: "Jul 2019",
         position:"Operations specialist",
         description: "I addressed customer complaints received via email, efficiently escalating them to the appropriate divisions through various communication channels to ensure swift resolutions. I also tackled general issues for our brokerage partners' customers, providing support with tasks such as resetting, recreating, and deleting VPS, thereby enhancing their overall experience and satisfaction.",
-        icon: "/public/liquidityconnect-logo.jpg"
+        icon: "/liquidityconnect-logo.jpg"
       },      
     {company:"Traderscolo LLC",
       startDate: "Jan 2014",
       endDate: "Jul 2020",
       position:"Operations specialist",
       description: "Developed, monitor & maintain front-end and back-end websites. Addressed customer complains received by email and chats. Efficintly escalated issues to the appropriate department or manager as needed. Participated in training and development programs to improve customer service skills and knowledge.",
-      icon: "/public/traderscolo-logo.jpg"
+      icon: "/traderscolo-logo.jpg"
     },    
     {
       company:"CITT Services",
@@ -70,7 +70,7 @@
       endDate: "Sep 2024",
       position:"Head of CITT Services Indonesia",
       description: "I took ownership of the entire business lifecycle—from recruiting and training staff to ensuring operational efficiency. My role spans managing staff schedules, assigning responsibilities, and overseeing cash handling, ensuring accurate cash reconciliation with receipts. This hands-on approach to both leadership and logistics allows me to keep operations running smoothly.<br><br>In addition to business operations, I apply my technical expertise to drive web development projects, streamline processes, and enhance digital marketing strategies. I’m skilled in building and managing websites, integrating complex systems, and ensuring seamless user experiences.<br><br><ul><li>Procurement</li><li>Resource management</li><li>Quality assurance</li><li>Web development</li><li>Reporting</li></ul>",
-      icon: "/public/cittservices_logo.jpg" // Replace with actual path or URL
+      icon: "/cittservices_logo.jpg" // Replace with actual path or URL
     },
     {
         company:"Permata Bank",
@@ -78,7 +78,7 @@
         endDate: "Dec 2013",
         position:"Host Integration Lead & J2EE Developer",
         description: "<ul><li>Wirecard's client</li><li>Assisting and documenting host integration</li></ul>",
-        icon: "/public/permata.png" // Replace with actual path or URL
+        icon: "/permata.png" // Replace with actual path or URL
     },  
     {
         company:"Bank Mestika",
@@ -94,7 +94,7 @@
         endDate: "15-10-2022",
         position:"Host Integration Lead & J2EE Developer",
         description: "<ul><li>Wirecard's client</li><li>Host integration for corporate and retail banking</li></ul>",
-        icon: "/public/cimb.jpg" // Replace with actual path or URL
+        icon: "/cimb.jpg" // Replace with actual path or URL
     },  
     {
         company:"Bank Mega",
@@ -102,7 +102,7 @@
         endDate: "15-10-2022",
         position:"Host Integration Lead & J2EE Developer",
         description: "<ul><li>Wirecard's client</li><li>Host integration for corporate and retail banking</li></ul>",
-        icon: "/public/bank-mega.jpg"
+        icon: "/bank-mega.jpg"
     },     
     {
         company:"ANZ Bank",
@@ -110,7 +110,7 @@
         endDate: "15-10-2022",
         position:"Host Integration Lead & J2EE Developer",
         description: "<ul><li>Wirecard's client</li><li>Host integration for corporate and retail banking</li></ul>",
-        icon: "/public/anz.jpg"
+        icon: "/anz.jpg"
     },         
     {
         company:"Wirecard",
@@ -118,7 +118,7 @@
         endDate: "15-10-2022",
         position:"Host Integration Lead & J2EE Developer",
         description: "Visited clients to develop, update and maintain host integrations per project's spec.",
-        icon: "/public/wirecard.jpg"
+        icon: "/wirecard.jpg"
     },
     {
         company:"Zoomatra",
@@ -134,7 +134,7 @@
         endDate: "15-10-2022",
         position:"Internship",
         description: "Network administration, documenting network topology",
-        icon: "/public/garuda_indonesia_logo.jpg"
+        icon: "/garuda_indonesia_logo.jpg"
     },    
     {
         company:"SCHOTT",
@@ -142,7 +142,7 @@
         endDate: "15-10-2022",
         position:"Internship",
         description: "Developed logistic application using VB",
-        icon: "/public/schott.jpg"
+        icon: "/schott.jpg"
     },                         
   ];
   

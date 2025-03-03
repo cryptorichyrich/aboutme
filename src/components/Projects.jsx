@@ -6,7 +6,7 @@ const projects = [
     name: "Vavelle Car Rental",
     technologies: "React",   
     image: "vavelle-car-rental.png",
-    github: "https://56f9cc2b.vavellerentalmobil.pages.dev/",
+    github: "https://vavellerentalmobil.pages.dev",
   },   
   {
     name: "Damai Kasih Channel",

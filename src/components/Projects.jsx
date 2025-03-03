@@ -3,6 +3,12 @@ import React from "react";
 
 const projects = [
   {
+    name: "Vavelle Car Rental",
+    technologies: "React",   
+    image: "vavelle-car-rental.png",
+    github: "https://56f9cc2b.vavellerentalmobil.pages.dev/",
+  },   
+  {
     name: "Damai Kasih Channel",
     technologies: "Jekyll, Markdown, Ruby, Developed Holy Bible for web, Church Documents, Catechism of Catholic Church web app, Church Canonic web app",   
     image: "damaikasihchannel.png",

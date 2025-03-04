@@ -5,6 +5,12 @@ const projects = [
   {
     name: "Vavelle Car Rental",
     technologies: "React",   
+    image: "vavelle-crispy-pork-belly.png",
+    github: "https://vavellecrispyporkbelly.pages.dev",
+  },  
+  {
+    name: "Vavelle Car Rental",
+    technologies: "React",   
     image: "vavelle-car-rental.png",
     github: "https://vavellerentalmobil.pages.dev",
   },   

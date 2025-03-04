@@ -3,9 +3,9 @@ import React from "react";
 
 const projects = [
   {
-    name: "Vavelle Car Rental",
+    name: "Vavelle Crispy Pork Belly",
     technologies: "React",   
-    image: "vavelle-crispy-pork-belly.png",
+    image: "vavellecrispyporkbelly.png",
     github: "https://vavellecrispyporkbelly.pages.dev",
   },  
   {

@@ -45,7 +45,7 @@ jobs:
           path: ./dist
           
       - name: Create CNAME file for custom domain
-        run: echo 'biotama.tech' > ./dist/CNAME
+        run: echo 'biotama.cv' > ./dist/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
